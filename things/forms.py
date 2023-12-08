@@ -10,3 +10,4 @@ class ThingForm(forms.ModelForm):
         widgets = {
             'description': forms.Textarea(attrs={'rows': 4, 'cols': 15}),  # Customize textarea size
             'quantity': forms.NumberInput(attrs={'min': 1}),  # Set minimum value for quantity
+        }
